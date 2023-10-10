@@ -3,9 +3,9 @@ package com.example.botjournal.sevices.util;
 public class Messages {
 
     public static final String HELP_MESSAGE = """
-            This is created to demonstrate messages ability\s
+            This is created to demonstrate messages ability
 
-            You can execute commands from the main menu or left or by typing a command:\s
+            You can execute commands from the main menu or left or by typing a command:
 
             Type /start to see a welcome message
 
@@ -17,9 +17,10 @@ public class Messages {
 
             Type /settings to see setting of bot
 
-            Type /register to register user in bot
-
             Type /send to send message to all users, this opportunity is allowed only to owner
 
             """;
+
+    public static final String NOT_EXISTS_MESSAGE = "ABSENT.";
+
 }

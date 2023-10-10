@@ -1,0 +1,216 @@
+10.10.2023 15:03:01.584 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.botjournal.sevices.TelegramBotServiceTest]: TelegramBotServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10.10.2023 15:03:01.823 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.botjournal.BotJournalApplication for test class com.example.botjournal.sevices.TelegramBotServiceTest
+10.10.2023 15:03:02.542 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/User/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/User/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+10.10.2023 15:03:02.569 [main] INFO  c.e.b.s.TelegramBotServiceTest - Starting TelegramBotServiceTest using Java 20.0.1 with PID 7876 (started by User in D:\IdeaProjects\bot-journal)
+10.10.2023 15:03:02.570 [main] INFO  c.e.b.s.TelegramBotServiceTest - No active profile set, falling back to 1 default profile: "default"
+10.10.2023 15:03:03.657 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10.10.2023 15:03:03.738 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+10.10.2023 15:03:04.931 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+10.10.2023 15:03:04.947 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10.10.2023 15:03:04.948 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+10.10.2023 15:03:05.098 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10.10.2023 15:03:05.098 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2190 ms
+10.10.2023 15:03:05.437 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10.10.2023 15:03:05.544 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+10.10.2023 15:03:05.547 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+10.10.2023 15:03:05.823 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:03:06.062 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10.10.2023 15:03:06.089 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10.10.2023 15:03:06.728 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ae16aa
+10.10.2023 15:03:06.732 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10.10.2023 15:03:06.824 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+10.10.2023 15:03:07.191 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:03:07.982 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10.10.2023 15:03:08.045 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:03:09.908 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+10.10.2023 15:03:10.040 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10.10.2023 15:03:10.858 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 53979 (http) with context path ''
+10.10.2023 15:03:10.879 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:03:10.888 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:11.106 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:03:11.111 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:11.116 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:11.119 [main] INFO  c.e.b.s.TelegramBotServiceTest - Started TelegramBotServiceTest in 8.871 seconds (process running for 11.016)
+10.10.2023 15:03:13.449 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:03:13.452 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10.10.2023 15:03:13.466 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+10.10.2023 15:03:38.904 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.botjournal.sevices.TelegramBotServiceTest]: TelegramBotServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10.10.2023 15:03:39.061 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.botjournal.BotJournalApplication for test class com.example.botjournal.sevices.TelegramBotServiceTest
+10.10.2023 15:03:39.759 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/User/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/User/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+10.10.2023 15:03:39.784 [main] INFO  c.e.b.s.TelegramBotServiceTest - Starting TelegramBotServiceTest using Java 20.0.1 with PID 21860 (started by User in D:\IdeaProjects\bot-journal)
+10.10.2023 15:03:39.786 [main] INFO  c.e.b.s.TelegramBotServiceTest - No active profile set, falling back to 1 default profile: "default"
+10.10.2023 15:03:40.782 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10.10.2023 15:03:40.860 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+10.10.2023 15:03:41.939 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+10.10.2023 15:03:41.952 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10.10.2023 15:03:41.953 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+10.10.2023 15:03:42.108 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10.10.2023 15:03:42.109 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2004 ms
+10.10.2023 15:03:42.419 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10.10.2023 15:03:42.496 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+10.10.2023 15:03:42.500 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+10.10.2023 15:03:42.731 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:03:42.917 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10.10.2023 15:03:42.941 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10.10.2023 15:03:43.423 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d9ee75a
+10.10.2023 15:03:43.425 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10.10.2023 15:03:43.497 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+10.10.2023 15:03:43.852 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:03:44.600 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10.10.2023 15:03:44.653 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:03:46.268 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+10.10.2023 15:03:46.406 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10.10.2023 15:03:47.189 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 53999 (http) with context path ''
+10.10.2023 15:03:47.207 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:03:47.215 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:47.299 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:03:47.302 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:47.306 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:03:47.308 [main] INFO  c.e.b.s.TelegramBotServiceTest - Started TelegramBotServiceTest in 7.817 seconds (process running for 9.749)
+10.10.2023 15:03:49.981 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:03:49.983 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10.10.2023 15:03:49.997 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+10.10.2023 15:05:37.190 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.botjournal.sevices.TelegramBotServiceTest]: TelegramBotServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10.10.2023 15:05:37.414 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.botjournal.BotJournalApplication for test class com.example.botjournal.sevices.TelegramBotServiceTest
+10.10.2023 15:05:38.206 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/User/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/User/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+10.10.2023 15:05:38.231 [main] INFO  c.e.b.s.TelegramBotServiceTest - Starting TelegramBotServiceTest using Java 20.0.1 with PID 25588 (started by User in D:\IdeaProjects\bot-journal)
+10.10.2023 15:05:38.233 [main] INFO  c.e.b.s.TelegramBotServiceTest - No active profile set, falling back to 1 default profile: "default"
+10.10.2023 15:05:39.338 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10.10.2023 15:05:39.423 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+10.10.2023 15:05:40.590 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+10.10.2023 15:05:40.605 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10.10.2023 15:05:40.605 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+10.10.2023 15:05:40.756 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10.10.2023 15:05:40.757 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2196 ms
+10.10.2023 15:05:41.075 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10.10.2023 15:05:41.188 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+10.10.2023 15:05:41.192 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+10.10.2023 15:05:41.503 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:05:41.730 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10.10.2023 15:05:41.764 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10.10.2023 15:05:42.359 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1870b9b8
+10.10.2023 15:05:42.362 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10.10.2023 15:05:42.428 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+10.10.2023 15:05:42.798 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:05:43.615 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10.10.2023 15:05:43.677 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:05:45.317 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+10.10.2023 15:05:45.444 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10.10.2023 15:05:46.161 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 54030 (http) with context path ''
+10.10.2023 15:05:46.178 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:05:46.186 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:05:46.288 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:05:46.293 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:05:46.296 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:05:46.298 [main] INFO  c.e.b.s.TelegramBotServiceTest - Started TelegramBotServiceTest in 8.399 seconds (process running for 10.646)
+10.10.2023 15:05:49.287 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:05:49.290 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10.10.2023 15:05:49.299 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+10.10.2023 15:07:48.142 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.botjournal.sevices.TelegramBotServiceTest]: TelegramBotServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10.10.2023 15:07:48.316 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.botjournal.BotJournalApplication for test class com.example.botjournal.sevices.TelegramBotServiceTest
+10.10.2023 15:07:49.012 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/User/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/User/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+10.10.2023 15:07:49.034 [main] INFO  c.e.b.s.TelegramBotServiceTest - Starting TelegramBotServiceTest using Java 20.0.1 with PID 19552 (started by User in D:\IdeaProjects\bot-journal)
+10.10.2023 15:07:49.035 [main] INFO  c.e.b.s.TelegramBotServiceTest - No active profile set, falling back to 1 default profile: "default"
+10.10.2023 15:07:50.044 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10.10.2023 15:07:50.114 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+10.10.2023 15:07:51.091 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+10.10.2023 15:07:51.103 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10.10.2023 15:07:51.103 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+10.10.2023 15:07:51.262 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10.10.2023 15:07:51.262 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1869 ms
+10.10.2023 15:07:51.553 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10.10.2023 15:07:51.639 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+10.10.2023 15:07:51.642 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+10.10.2023 15:07:51.857 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:07:52.042 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+10.10.2023 15:07:52.062 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10.10.2023 15:07:52.530 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3151277f
+10.10.2023 15:07:52.533 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10.10.2023 15:07:52.594 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+10.10.2023 15:07:52.961 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+10.10.2023 15:07:53.734 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10.10.2023 15:07:53.789 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:07:55.198 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+10.10.2023 15:07:55.311 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10.10.2023 15:07:56.102 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 54058 (http) with context path ''
+10.10.2023 15:07:56.123 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:07:56.136 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:07:56.449 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotToken
+
+10.10.2023 15:07:56.454 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:07:56.458 [main] INFO  c.e.b.c.LogConfiguration - RUN SERVICE
+SERVICE_METHODcom.example.botjournal.sevices.TelegramBotService.getBotUsername
+
+10.10.2023 15:07:56.460 [main] INFO  c.e.b.s.TelegramBotServiceTest - Started TelegramBotServiceTest in 7.723 seconds (process running for 9.604)
+10.10.2023 15:08:01.947 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10.10.2023 15:08:01.950 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10.10.2023 15:08:01.960 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

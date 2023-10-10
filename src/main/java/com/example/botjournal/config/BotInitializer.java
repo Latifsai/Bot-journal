@@ -1,6 +1,6 @@
 package com.example.botjournal.config;
 
-import com.example.botjournal.sevices.TelegramBotService;
+import com.example.botjournal.controller.BotController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.ContextRefreshedEvent;
@@ -14,16 +14,16 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 @Component
 @RequiredArgsConstructor
 public class BotInitializer {
-    private final TelegramBotService telegramBotService;
+
+    private final BotController botController;
 
     @EventListener({ContextRefreshedEvent.class})
     public void init() throws TelegramApiException {
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-
         try {
-            telegramBotsApi.registerBot(telegramBotService);
+            telegramBotsApi.registerBot(botController);
         } catch (TelegramApiException e) {
-            log.error(e.getMessage());
+            log.error("Exception during bot registration", e);
         }
     }
 
