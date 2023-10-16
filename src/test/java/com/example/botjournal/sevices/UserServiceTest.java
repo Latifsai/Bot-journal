@@ -5,7 +5,7 @@ import com.example.botjournal.entity.User;
 import com.example.botjournal.generators.DTOGenerator;
 import com.example.botjournal.generators.EntityGenerator;
 import com.example.botjournal.repository.UserRepository;
-import com.example.botjournal.sevices.util.UserUtil;
+import com.example.botjournal.utiles.UserUtil;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

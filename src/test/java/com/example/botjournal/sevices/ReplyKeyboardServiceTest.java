@@ -22,15 +22,22 @@ class ReplyKeyboardServiceTest {
     @DisplayName("createKeyboard test method")
     public void testCreateKeyboard() {
         long chatId = 1232;
-        SendMessage result = replyKeyboardService.createKeyboard(chatId);
+        ReplyKeyboardMarkup result = replyKeyboardService.createKeyboard();
 
         assertSendMessageObject(result, chatId);
     }
 
-    private void assertSendMessageObject(SendMessage sendMessage, long chatId) {
+    private void assertSendMessageObject(ReplyKeyboardMarkup replyKeyboardMarkup, long chatId) {
+        String text = "Just send me a message or audio recording";
+
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText(text);
+        sendMessage.setReplyMarkup(replyKeyboardMarkup);
+
         assert sendMessage.getChatId().equals(String.valueOf(chatId));
 
-        assert sendMessage.getText().equals("Just send me a message or audio recording");
+        assert sendMessage.getText().equals(text);
 
         ReplyKeyboardMarkup markup = (ReplyKeyboardMarkup) sendMessage.getReplyMarkup();
         assert markup != null;
