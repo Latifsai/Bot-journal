@@ -1,6 +1,6 @@
 package com.example.botjournal.config;
 
-import com.example.botjournal.controller.BotController;
+import com.example.botjournal.bot.BotController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.ContextRefreshedEvent;
